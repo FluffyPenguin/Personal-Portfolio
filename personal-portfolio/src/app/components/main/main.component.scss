@@ -32,10 +32,26 @@ mat-card {
   height: 100%;
 }
 
-#name-background {
-  background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2019/marchofthemu.jpg");
+#name-div {
+  background-image: url("https://www.live5news.com/resizer/Fy0NQxXGztIwH26oJ-jdUDhwgtM=/1200x600/cloudfront-us-east-1.images.arcpublishing.com/raycom/D4QKZGLONVCXHCN6UP4MDJVPD4.JPG");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 
-  filter: blur(2px);
+}
+
+#link-icons {
+  width: 25%;
+  a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 38px;
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: gray;
+  }
 }
