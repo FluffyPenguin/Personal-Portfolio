@@ -37,3 +37,19 @@ $personal-portfolio-theme: mat-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+  font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+  width: .25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: dimgray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: ghostwhite;
+}
